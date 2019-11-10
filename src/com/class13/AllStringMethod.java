@@ -26,7 +26,22 @@ public class AllStringMethod {
 		System.out.println(str.substring(8,15));
 		
 		
+		String obj = "I LIKE JAVA";
+		System.out.println(obj.charAt(3));
 		
+		String str1 = "0123456789";
+		System.out.println(str1.substring(4));
+		String word ="abrakadabra";
+
+	      String replace=word.replaceAll("[^aAeEiIoOuU]", " ");
+
+	      System.out.println(replace);
+	      
+	      
+	      String str_Sample = "RockStar";
+	      System.out.println("EndsWith character 'r': " + str_Sample.endsWith("r"));
+		
+
 
 	}
 

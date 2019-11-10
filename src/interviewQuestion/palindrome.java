@@ -1,10 +1,11 @@
-package com.class14;
+package interviewQuestion;
 
 import java.util.Scanner;
 
 public class palindrome {
 
 	public static void main(String[] args) {
+		// Q6 Write a Java Program to find whether a String is palindrome or not?
 		Scanner scan = new Scanner(System.in);
 		String str, rev = "";
 
@@ -20,22 +21,14 @@ public class palindrome {
 		} else {
 			System.out.println(str + " is not polindrome");
 		}
-		Scanner sc=new Scanner(System.in);
-		String str1, rev1 = "";
-		System.out.println("enter a string");
-		str1 = sc.next();
-
-		for (int i = str1.length() - 1; i >= 0; i--) {
-			rev1 = rev1 + str1.charAt(i);
-		}
-		if (str1.equals(rev1)) {
-			System.out.print(str1+" is pol");
-
-		} else {
-			System.out.println(str1+ "is not");
-		}
+		System.out.println("*********************");
 		
-
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.println("enter a string");
+		String st=sc.next();
+		String reverse;
+		
+		}
 	}
 
-}
