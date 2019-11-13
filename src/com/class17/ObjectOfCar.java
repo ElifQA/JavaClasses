@@ -16,6 +16,7 @@ public class ObjectOfCar {
 	    car1.wheels=4;
 	    car1.windows=5;
 	    car1.speed=200;
+	   
 	    //accessing behavior for 1 object
 	    car1.start();//calling from method
 	    car1.accelerate();

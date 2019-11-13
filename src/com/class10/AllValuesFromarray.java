@@ -22,7 +22,7 @@ public class AllValuesFromarray {
 		int size=animals.length;
 		
 		for(int i=0; i<size; i++) {
-			System.out.println(animals[i]+" ");
+			System.out.print(animals[i]+" ");
 		}
 			
 			//create an array to store 5 double values print all elements in 1 line

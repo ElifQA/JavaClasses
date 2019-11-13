@@ -72,7 +72,7 @@ public class TwoDimentionalArrays {
         	}
         for (int getnumber[]:number) {
         	for (int getcol:getnumber) {
-        		System.out.print(getcol);
+        		System.out.print(getcol+" ");
         	}
         	System.out.println();
         }

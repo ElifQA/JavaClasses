@@ -23,11 +23,6 @@ public class palindrome {
 		}
 		System.out.println("*********************");
 		
-		Scanner sc=new Scanner(System.in);
-		
-		System.out.println("enter a string");
-		String st=sc.next();
-		String reverse;
 		
 		}
 	}
