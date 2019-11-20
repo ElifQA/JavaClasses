@@ -13,7 +13,7 @@ public class EvenOrOdd {
 		
 	}
 	
-	// Create a method that will print whether given String is palindrome or not.
+	// Create a method that will print whether given String is polindrome or not.
 	
 	void polindrome(String str) {
 		String reverse="";
