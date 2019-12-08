@@ -21,7 +21,7 @@ class Circle extends Shape{
 		
 	}
 	public void printArea() {
-		System.out.println("Area of circile "+3.14+radius*radius);
+		System.out.println("Area of circle "+3.14*radius);
 	}
 	
 }

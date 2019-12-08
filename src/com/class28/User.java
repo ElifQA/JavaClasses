@@ -7,31 +7,17 @@ package com.class28;
 
 public class User {
 	String name;
-	int mobileNumber;
-	
-	public User(String name, int mobileNumber) {
+	int mNumber;
+	public User(String name, int mNumber) {
 		this.name=name;
-		this.mobileNumber=mobileNumber;
+		this.mNumber=mNumber;
 	}
-
 }
-class UserInfo extends User{
-	String address;
-	UserInfo(String name, int mobileNumber, String address){
-		super(name, mobileNumber);
-		this.address=address;
-		
-	}
-	public void callInfo() {
-		System.out.println(name+mobileNumber+address);
-	}
+
+
 	
 	
-
-		
-	}
-
-
-
-
+	
+	
+	
 	
