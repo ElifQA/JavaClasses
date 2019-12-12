@@ -29,5 +29,11 @@ class Child extends Parent{
 		hello();
 		super.hello();
 	}
+public static void main(String[] args) {
+	Parent  obj=new Child(5);
 
+	
+	
 }
+}
+

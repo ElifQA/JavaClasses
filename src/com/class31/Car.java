@@ -27,9 +27,9 @@ class Truck extends Car{
 	
 	public double calculateSalePrice() {
 		if(weight>2000 ) {
-			carPrice=carPrice-(carPrice*0.1);
+			carPrice=carPrice-(carPrice*0.90);
 		}else {
-			carPrice=carPrice-(carPrice*0.2);
+			carPrice=carPrice-(carPrice*0.80);
 			}
 		return carPrice;
 		}}

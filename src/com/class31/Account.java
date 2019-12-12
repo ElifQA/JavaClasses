@@ -1,6 +1,6 @@
 package com.class31;
 
-public class Account {
+public class Account {//encapsulation
 	//hiding data make private
 	private long accountNumber;
 	private double balance;
