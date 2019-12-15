@@ -26,6 +26,7 @@ public class Recap1 {
 		
 		Iterator<Student> it=list.iterator();
 		while(it.hasNext()) {
+		
 //			Student st=it.next();
 //			System.out.println(st.studentId);
 			

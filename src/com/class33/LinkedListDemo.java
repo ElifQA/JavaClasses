@@ -5,7 +5,7 @@ import java.util.LinkedList;
 public class LinkedListDemo {
 
 	public static void main(String[] args) {
-		//crate linked list of Sting object
+		//crate linked list of String object
 		LinkedList<String> llist=new LinkedList<>();
 		llist.add("Hello");
 		llist.add("Bye");

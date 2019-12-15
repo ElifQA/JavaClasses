@@ -3,6 +3,7 @@ package com.class30;
 	public abstract class Vehicle {
 		String vinNumber;
 		static int totalVehicles;	
+		
 		Vehicle(String vinNumber){
 			this.vinNumber=vinNumber;
 			totalVehicles++;

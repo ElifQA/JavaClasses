@@ -7,7 +7,7 @@ import java.util.List;
 public class Homework2 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	
 		//create arrayList of words 
 		//remove every word taht ends with "e" use iterator 
 		List<String>list=new ArrayList<>();
