@@ -35,8 +35,7 @@ public class RetrieveAllKeys {
 		Iterator<String> keysIterator = keys.iterator();
 		while (keysIterator.hasNext()) {
 			System.out.println(keysIterator.next());
-			// System.out.println(keysIterator.next()+":"+
-			// personMap.get(keysIterator.next()));
+			//System.out.println(keysIterator.next()+":"+ personMap.get(keysIterator.next())); //----giving error
 			//String mapKey = keysIterator.next();
 			//String mapValue = personMap.get(mapKey);
 

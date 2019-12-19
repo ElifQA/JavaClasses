@@ -51,6 +51,8 @@ public class MapIntro {
 		boolean contains=map.containsValue("Seval");
 		System.out.println(contains);
 		System.out.println(map);
+		map.clear();
+		System.out.println(map);
 	}
 
 }

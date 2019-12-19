@@ -35,6 +35,15 @@ public class RetrieveAllEntrySet {
 			System.out.println(entry);
 			
 			}
+		Set<Entry<String, Integer>> ent=classRoom.entrySet();
+		Iterator<Entry<String, Integer>> it2=ent.iterator();
+		while(it2.hasNext()) {
+			Entry<String, Integer> entry=it2.next();
+			String key=entry.getKey();
+			Integer val=entry.getValue();
+			System.out.println(key+" "+val);
+			
+		}
 	}
 
 }

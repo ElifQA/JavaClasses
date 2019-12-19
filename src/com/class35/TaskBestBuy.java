@@ -14,11 +14,11 @@ public class TaskBestBuy {
 		//●Retrieve all keys and values from a Best Buy map using EntrySet.
 
 			Map<Integer, String> map=new HashMap<>();
-			map.put(2365, "TV");
-			map.put(5689,"Phone");
+			map.put(2365, "Samsung TV");
+			map.put(5689,"Ipad");
 			map.put(5848, "Washer");
 			map.put(8975, "Dryer");
-			map.put(9658, "Irobot");
+			map.put(9658, "irobot");
 			System.out.println(map);
 			
 			Set<Entry<Integer, String>> entrySet=map.entrySet();
@@ -35,7 +35,14 @@ public class TaskBestBuy {
 				System.out.println(key+" : "+val);
 			}
 			
+			Set<Entry<Integer, String>> entySet=map.entrySet();
+			for (Entry<Integer, String> ent:entySet) {
+				System.out.println(ent.getKey()+" "+ent.getValue());
+			}
+			System.out.println("--------------");
 			
-	}
-
-}
+			
+			
+			
+			
+}}
